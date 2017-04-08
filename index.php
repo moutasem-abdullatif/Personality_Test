@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kişilik Testi</title>
+    <link rel="stylesheet" href="css/bootstrap-superhero.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/scripts.js"></script>
+</head>
+
+<body>
+
+<div class="user-icon-div">
+    <div class="text-center user-icon">
+    <span class="person-circle">
+        <i class="fa fa-user fa-5x"></i>
+    </span>
+    </div>
+</div>
+
+<div id="container">
+    <form method="post" action="">
+        <div class="box" style="left: 50%;">
+            <div id="soru1" class="panel panel-info ">
+                <div class="panel-heading">
+                    <h3>
+                        1 -Aşağıdaki beyitlerden hangisi sizi daha iyi anlatır?
+                    </h3>
+                </div>
+                <div class="panel-body">
+                    <ul class="list-group">
+                        <a href="#" class="list-group-item choice-item" data-sinif="A">Güçlü, kararlı, girişken ve
+                            doğuştan liderim Düşer
+                            kalkar, yoluma devam ederim &nbsp; <i class=""
+                                                                  style="color: #4cae4c;font-size: 20px;"></i><i
+                                    class="" style="color: #4cae4c;font-size: 20px;"></i></a>
+                        <a href="#" class="list-group-item choice-item" data-sinif="B">Hayata anlamlı renkler katar
+                            eğlenceyi severim Ömür boyu
+                            herkesin mutlu ve neşeli olmasını dilerim. &nbsp; <i class=""
+                                                                                 style="color: #4cae4c;font-size: 20px;"></i><i
+                                    class="" style="color: #4cae4c;font-size: 20px;"></i></a>
+                        <a href="#" class="list-group-item choice-item" data-sinif="C">Her anımı huzurlu ve sakin
+                            geçirmek isterim Kavga
+                            gürültü sevmem, işlerimde en kolay yolu seçerim. &nbsp; <i class=""
+                                                                                       style="color: #4cae4c;font-size: 20px;"></i><i
+                                    class="" style="color: #4cae4c;font-size: 20px;"></i></a>
+                        <a href="#" class="list-group-item choice-item" data-sinif="D">Her şeyin mükemmel, düzgün,
+                            kusursuz olmasını isterim
+                            İlişkilerimde saygılı ve mesafeli olmayı severim. &nbsp; <i class=""
+                                                                                        style="color: #4cae4c;font-size: 20px;"></i><i
+                                    class="" style="color: #4cae4c;font-size: 20px;"></i></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div id="soru2" class="panel panel-info">
+                <div class="panel-heading">
+                    <h3>
+                        2- Genellikle hangi tempoda ve nasıl konuşursunuz?
+                    </h3>
+                </div>
+                <div class="panel-body">
+                    <ul class="list-group">
+                        <a href="#" class="list-group-item choice-item" data-sinif="A">Hızlı ve sonuca yönelik &nbsp; <i
+                                class="" style="color: #4cae4c;font-size: 20px;"></i><i class=""
+                                                                                        style="color: #4cae4c;font-size: 20px;"></i></a>
+                        <a href="#" class="list-group-item choice-item" data-sinif="B">Çok hızlı, heyecanlı ve eğlenceli
+                            &nbsp; <i class="" style="color: #4cae4c;font-size: 20px;"></i><i class=""
+                                                                                              style="color: #4cae4c;font-size: 20px;"></i></a>
+                        <a href="#" class="list-group-item choice-item" data-sinif="C">Daha yavaş ve sakin &nbsp; <i
+                                class="" style="color: #4cae4c;font-size: 20px;"></i><i class=""
+                                                                                        style="color: #4cae4c;font-size: 20px;"></i></a>
+                        <a href="#" class="list-group-item choice-item" data-sinif="D">Normal ve söyleyeceklerimi
+                            aklımda tartarak &nbsp; <i class="" style="color: #4cae4c;font-size: 20px;"></i><i class=""
+                                                                                                               style="color: #4cae4c;font-size: 20px;"></i></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div id="soru3" class="panel panel-info">
+                <div class="panel-heading">
+                    <h3>
+                        3 -Bir işe motive olmanızı sağlayan en önemli unsur hangisidir?
+                    </h3>
+                </div>
+                <div class="panel-body">
+                    <ul class="list-group">
+                        <a href="#" class="list-group-item choice-item" data-sinif="A">Sonuçları düşünmek &nbsp; <i
+                                class="" style="color: #4cae4c;font-size: 20px;"></i><i class=""
+                                                                                        style="color: #4cae4c;font-size: 20px;"></i></a>
+                        <a href="#" class="list-group-item choice-item" data-sinif="B">Onaylanmak, takdir edilmek &nbsp;
+                            <i class="" style="color: #4cae4c;font-size: 20px;"></i><i class=""
+                                                                                       style="color: #4cae4c;font-size: 20px;"></i></a>
+                        <a href="#" class="list-group-item choice-item" data-sinif="C">Guruptaki arkadaşlarımın desteği
+                            &nbsp; <i class="" style="color: #4cae4c;font-size: 20px;"></i><i class=""
+                                                                                              style="color: #4cae4c;font-size: 20px;"></i></a>
+                        <a href="#" class="list-group-item choice-item" data-sinif="D">Etkinlik, düzen ve disiplin
+                            &nbsp; <i class="" style="color: #4cae4c;font-size: 20px;"></i><i class=""
+                                                                                              style="color: #4cae4c;font-size: 20px;"></i></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div id="soru4" class="panel panel-info">
+                <div class="panel-heading">
+                    <h3>
+                        4- Çalışma tarzınız hangisine uygundur?
+                    </h3>
+                </div>
+                <div class="panel-body">
+                    <ul class="list-group">
+                        <a href="#" class="list-group-item choice-item" data-sinif="A">Yoğun ve hızlıyımdır. Aynı anda
+                            birkaç iş bir arada
+                            yapabilirim. &nbsp; <i class="" style="color: #4cae4c;font-size: 20px;"></i><i class=""
+                                                                                                           style="color: #4cae4c;font-size: 20px;"></i></a>
+                        <a href="#" class="list-group-item choice-item" data-sinif="B">Özgür bir ortamda çalışırım.
+                            İnsan ilişkileri odaklıyımdır. &nbsp; <i class=""
+                                                                     style="color: #4cae4c;font-size: 20px;"></i><i
+                                    class="" style="color: #4cae4c;font-size: 20px;"></i></a>
+                        <a href="#" class="list-group-item choice-item" data-sinif="C">Ön planda olmayan; ama gruba her
+                            türlü desteği veren bir yapım
+                            vardır. &nbsp; <i class="" style="color: #4cae4c;font-size: 20px;"></i><i class=""
+                                                                                                      style="color: #4cae4c;font-size: 20px;"></i></a>
+                        <a href="#" class="list-group-item choice-item" data-sinif="D">Ayrıntıları önemserim ve tek bir
+                            konuya daklanarak çalışırım &nbsp; <i class=""
+                                                                  style="color: #4cae4c;font-size: 20px;"></i><i
+                                    class="" style="color: #4cae4c;font-size: 20px;"></i></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div id="soru5" class="panel panel-info">
+                <div class="panel-heading">
+                    <h3>
+                        5 -Çalışma temponuzu nasıl değerlendiriyorsunuz?
+                    </h3>
+                </div>
+                <div class="panel-body">
+                    <ul class="list-group">
+                        <a href="#" class="list-group-item choice-item" data-sinif="A">Hızlı bir tempoda çalışır, çabuk
+                            karar almayı severim. &nbsp; <i class="" style="color: #4cae4c;font-size: 20px;"></i><i
+                                    class="" style="color: #4cae4c;font-size: 20px;"></i></a>
+                        <a href="#" class="list-group-item choice-item" data-sinif="B">İşlerin, rutin ve sıkıcı olmadığı
+                            ortamlarda yüksek motivasyonla
+                            çalışırım. &nbsp; <i class="" style="color: #4cae4c;font-size: 20px;"></i><i class=""
+                                                                                                         style="color: #4cae4c;font-size: 20px;"></i></a>
+                        <a href="#" class="list-group-item choice-item" data-sinif="C">Nadiren aceleciyimdir. Geçde olsa
+                            üstlendiğim işi bitiririm &nbsp; <i class="" style="color: #4cae4c;font-size: 20px;"></i><i
+                                    class="" style="color: #4cae4c;font-size: 20px;"></i></a>
+                        <a href="#" class="list-group-item choice-item" data-sinif="D">Ayrıntılı düşünerek karar
+                            veririm. İş bitirici bir tempoyla
+                            çalışırım. &nbsp; <i class="" style="color: #4cae4c;font-size: 20px;"></i><i class=""
+                                                                                                         style="color: #4cae4c;font-size: 20px;"></i></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div id="soru6" class="panel panel-info">
+                <div class="panel-heading">
+                    <h3>
+                        6- Hangisi sizi daha çok rahatsız eder?
+                    </h3>
+                </div>
+                <div class="panel-body">
+                    <ul class="list-group">
+                        <a href="#" class="list-group-item choice-item" data-sinif="A">Zaman israfı ve işlerin gecikmesi
+                            &nbsp; <i class="" style="color: #4cae4c;font-size: 20px;"></i><i class=""
+                                                                                              style="color: #4cae4c;font-size: 20px;"></i></a>
+                        <a href="#" class="list-group-item choice-item" data-sinif="B">Tekrar gerektiren işler ve
+                            monotonluk &nbsp; <i class="" style="color: #4cae4c;font-size: 20px;"></i><i class=""
+                                                                                                         style="color: #4cae4c;font-size: 20px;"></i></a>
+                        <a href="#" class="list-group-item choice-item" data-sinif="C">Çatışma ortamı ve anlaşmazlıklar
+                            &nbsp; <i class="" style="color: #4cae4c;font-size: 20px;"></i><i class=""
+                                                                                              style="color: #4cae4c;font-size: 20px;"></i></a>
+                        <a href="#" class="list-group-item choice-item" data-sinif="D">Yanılmak ve yapılan hatanın
+                            tekrarlanması &nbsp; <i class="" style="color: #4cae4c;font-size: 20px;"></i><i class=""
+                                                                                                            style="color: #4cae4c;font-size: 20px;"></i></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div id="soru7" class="panel panel-info">
+                <div class="panel-heading">
+                    <h3>
+                        7 -Bulunduğunuz gruplarda hangi konumda daha başarılı olursunuz?
+                    </h3>
+                </div>
+                <div class="panel-body">
+                    <ul class="list-group">
+                        <a href="#" class="list-group-item choice-item" data-sinif="A">Olaylara yön veren ve otoriteyi
+                            kullanan &nbsp; <i class="" style="color: #4cae4c;font-size: 20px;"></i><i class=""
+                                                                                                       style="color: #4cae4c;font-size: 20px;"></i></a>
+                        <a href="#" class="list-group-item choice-item" data-sinif="B">İnsanları motive eden ve
+                            neşelendiren &nbsp; <i class="" style="color: #4cae4c;font-size: 20px;"></i><i class=""
+                                                                                                           style="color: #4cae4c;font-size: 20px;"></i></a>
+                        <a href="#" class="list-group-item choice-item" data-sinif="C">Uzlaştırıcı ve grup içindeki
+                            uyumu sağlayan &nbsp; <i class="" style="color: #4cae4c;font-size: 20px;"></i><i class=""
+                                                                                                             style="color: #4cae4c;font-size: 20px;"></i></a>
+                        <a href="#" class="list-group-item choice-item" data-sinif="D">Bilgi sağlayıcı, araştırıcı ve
+                            olayları takip eden &nbsp; <i class="" style="color: #4cae4c;font-size: 20px;"></i><i
+                                    class="" style="color: #4cae4c;font-size: 20px;"></i></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div id="soru8" class="panel panel-info">
+                <div class="panel-heading">
+                    <h3>
+                        8 -Hangisi sizi daha çok strese sokar?
+                    </h3>
+                </div>
+                <div class="panel-body">
+                    <ul class="list-group">
+                        <a href="#" class="list-group-item choice-item" data-sinif="A">Olaylar üzerindeki güç ve
+                            kontrolümün azaldığını hissetmek &nbsp; <i class=""
+                                                                       style="color: #4cae4c;font-size: 20px;"></i><i
+                                    class="" style="color: #4cae4c;font-size: 20px;"></i></a>
+                        <a href="#" class="list-group-item choice-item" data-sinif="B">Sıkıcı, rutin işler yapılan bir
+                            ortamda bulunmak &nbsp; <i class="" style="color: #4cae4c;font-size: 20px;"></i><i class=""
+                                                                                                               style="color: #4cae4c;font-size: 20px;"></i></a>
+                        <a href="#" class="list-group-item choice-item" data-sinif="C">Beni aşacağını düşündüğüm
+                            sorumluluklar Üstlenmek &nbsp; <i class="" style="color: #4cae4c;font-size: 20px;"></i><i
+                                    class="" style="color: #4cae4c;font-size: 20px;"></i></a>
+                        <a href="#" class="list-group-item choice-item" data-sinif="D">Düzensiz ortamlar ve eksik
+                            yapılan işler &nbsp; <i class="" style="color: #4cae4c;font-size: 20px;"></i><i class=""
+                                                                                                            style="color: #4cae4c;font-size: 20px;"></i></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div id="soru9" class="panel panel-info">
+                <div class="panel-heading">
+                    <h3>
+                        9- Bir öğrenci olsanız ve öğretmeniniz sınav kağıdınızı ikinci defa incelediğinde puanınızı
+                        artırdığını
+                        söylese, nasıl bir tepki verirsiniz?
+                    </h3>
+                </div>
+                <div class="panel-body">
+                    <ul class="list-group">
+                        <a href="#" class="list-group-item choice-item" data-sinif="A">GBunu zaten hak ettiğimi
+                            düşünürüm. &nbsp; <i class="" style="color: #4cae4c;font-size: 20px;"></i><i class=""
+                                                                                                         style="color: #4cae4c;font-size: 20px;"></i></a>
+                        <a href="#" class="list-group-item choice-item" data-sinif="B">Çok sevinirim ve sevincimi belli
+                            ederim. &nbsp; <i class="" style="color: #4cae4c;font-size: 20px;"></i><i class=""
+                                                                                                      style="color: #4cae4c;font-size: 20px;"></i></a>
+                        <a href="#" class="list-group-item choice-item" data-sinif="C">Hocama teşekkür eder ve saygı
+                            duyarım &nbsp; <i class="" style="color: #4cae4c;font-size: 20px;"></i><i class=""
+                                                                                                      style="color: #4cae4c;font-size: 20px;"></i></a>
+                        <a href="#" class="list-group-item choice-item" data-sinif="D">Hocamın nerede hata yaptığını
+                            merak eder, kağıdımı görmek
+                            isterim. &nbsp; <i class="" style="color: #4cae4c;font-size: 20px;"></i><i class=""
+                                                                                                       style="color: #4cae4c;font-size: 20px;"></i></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div id="soru10" class="panel panel-info">
+                <div class="panel-heading">
+                    <h3>
+                        10- Saatler sürecek bir iş toplantısına katılmanız gerektiğinde aşağıdakilerden hangisini
+                        benimsersiniz?
+                    </h3>
+                </div>
+                <div class="panel-body">
+                    <ul class="list-group">
+                        <a href="#" class="list-group-item choice-item" data-sinif="A">Konunun ana hatlarının
+                            konuşulması için, sonucun belli
+                            olmasından hemen sonra çıkmayı tercih ederim. &nbsp; <i class=""
+                                                                                    style="color: #4cae4c;font-size: 20px;"></i><i
+                                    class="" style="color: #4cae4c;font-size: 20px;"></i></a>
+                        <a href="#" class="list-group-item choice-item" data-sinif="B">Toplantı eğlenceli bir şekilde
+                            devam ettiğinde sonuna kadar
+                            kalmayı, sıkıcı olmaya başladığında erken çıkmayı tercih ederim. &nbsp; <i class=""
+                                                                                                       style="color: #4cae4c;font-size: 20px;"></i><i
+                                    class="" style="color: #4cae4c;font-size: 20px;"></i></a>
+                        <a href="#" class="list-group-item choice-item" data-sinif="C">Toplantının huzur içinde geçmesi
+                            ve güzel kararlar çıkması için
+                            üstüme düşeni yaparım. &nbsp; <i class="" style="color: #4cae4c;font-size: 20px;"></i><i
+                                    class="" style="color: #4cae4c;font-size: 20px;"></i></a>
+                        <a href="#" class="list-group-item choice-item" data-sinif="D">Toplantıya vaktinden önce gelir,
+                            tüm detayları not eder ve bir
+                            değerlendirme yapmak için geç çıkarım. &nbsp; <i class=""
+                                                                             style="color: #4cae4c;font-size: 20px;"></i><i
+                                    class="" style="color: #4cae4c;font-size: 20px;"></i></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div id="soru11" class="panel panel-info">
+                <div class="panel-heading">
+                    <h3>
+                        11- Kendinizde gördüğünüz en zayıf yönünüz hangisidir?
+                    </h3>
+                </div>
+                <div class="panel-body">
+                    <ul class="list-group">
+                        <a href="#" class="list-group-item choice-item" data-sinif="A">İnsanlar işleri istediğim gibi
+                            yapmadığında ve seri
+                            olmadıklarında sinirlenmek &nbsp; <i class="" style="color: #4cae4c;font-size: 20px;"></i><i
+                                    class="" style="color: #4cae4c;font-size: 20px;"></i></a>
+                        <a href="#" class="list-group-item choice-item" data-sinif="B">Düzensiz, dağınık ve programsız
+                            olmak &nbsp; <i class="" style="color: #4cae4c;font-size: 20px;"></i><i class=""
+                                                                                                    style="color: #4cae4c;font-size: 20px;"></i></a>
+                        <a href="#" class="list-group-item choice-item" data-sinif="C">Kimseye hayır diyememek ve
+                            başkalarının işine koşarken kendi
+                            işimi aksatmak &nbsp; <i class="" style="color: #4cae4c;font-size: 20px;"></i><i class=""
+                                                                                                             style="color: #4cae4c;font-size: 20px;"></i></a>
+                        <a href="#" class="list-group-item choice-item" data-sinif="D">Her şeyin kusursuz ve mükemmel
+                            olmasını istemek, İnsanlar buna
+                            uymadığında sinirlenmek &nbsp; <i class="" style="color: #4cae4c;font-size: 20px;"></i><i
+                                    class="" style="color: #4cae4c;font-size: 20px;"></i></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div id="soru12" class="panel panel-info">
+                <div class="panel-heading">
+                    <h3>
+                        12 -Kendinizde gördüğünüz en güçlü yönünüz hangisidir?
+                    </h3>
+                </div>
+                <div class="panel-body">
+                    <ul class="list-group">
+                        <a href="#" class="list-group-item choice-item" data-sinif="A">Kısa sürede karar alan ve
+                            harekete geçen yapım &nbsp; <i class="" style="color: #4cae4c;font-size: 20px;"></i><i
+                                    class="" style="color: #4cae4c;font-size: 20px;"></i></a>
+                        <a href="#" class="list-group-item choice-item" data-sinif="B">Girdiğim ortamlara neşe ve
+                            heyecan katan tarafım &nbsp; <i class="" style="color: #4cae4c;font-size: 20px;"></i><i
+                                    class="" style="color: #4cae4c;font-size: 20px;"></i></a>
+                        <a href="#" class="list-group-item choice-item" data-sinif="C">Her türlü ortama uyum sağlama ve
+                            çatışmaları önleme gayretim &nbsp; <i class=""
+                                                                  style="color: #4cae4c;font-size: 20px;"></i><i
+                                    class="" style="color: #4cae4c;font-size: 20px;"></i></a>
+                        <a href="#" class="list-group-item choice-item" data-sinif="D">Her şeyi planlı, programlı ve
+                            düzenli yapma huyum &nbsp; <i class="" style="color: #4cae4c;font-size: 20px;"></i><i
+                                    class="" style="color: #4cae4c;font-size: 20px;"></i></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div id="soru13" class="panel panel-info">
+                <div class="panel-heading">
+                    <h3>
+                        13- Aşağıdaki ifadelerden hangisi sizi daha iyi tanımlar?
+                    </h3>
+                </div>
+                <div class="panel-body">
+                    <ul class="list-group">
+                        <a href="#" class="list-group-item choice-item" data-sinif="A">Güçlü, kararlı, otoriter ve
+                            yönlendirici &nbsp; <i class="" style="color: #4cae4c;font-size: 20px;"></i><i class=""
+                                                                                                           style="color: #4cae4c;font-size: 20px;"></i></a>
+                        <a href="#" class="list-group-item choice-item" data-sinif="B">Popüler, neşeli, sevimli ve muzip
+                            &nbsp; <i class="" style="color: #4cae4c;font-size: 20px;"></i><i class=""
+                                                                                              style="color: #4cae4c;font-size: 20px;"></i></a>
+                        <a href="#" class="list-group-item choice-item" data-sinif="C">Barışçıl, sevecen, uyumlu ve
+                            sakin &nbsp; <i class="" style="color: #4cae4c;font-size: 20px;"></i><i class=""
+                                                                                                    style="color: #4cae4c;font-size: 20px;"></i></a>
+                        <a href="#" class="list-group-item choice-item" data-sinif="D">Tertipli, düzenli, disiplinli ve
+                            planlı. &nbsp; <i class="" style="color: #4cae4c;font-size: 20px;"></i><i class=""
+                                                                                                      style="color: #4cae4c;font-size: 20px;"></i></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div id="soru14" class="panel panel-info">
+                <div class="panel-heading">
+                    <h3>
+                        14 -Çalışma masanızda nelere dikkat edersiniz?
+                    </h3>
+                </div>
+                <div class="panel-body">
+                    <ul class="list-group">
+                        <a href="#" class="list-group-item choice-item" data-sinif="A">Öncelik verdiğim şeyleri yapacak
+                            şekilde düzenlenmiş sade bir
+                            masayı tercih ederim. &nbsp; <i class="" style="color: #4cae4c;font-size: 20px;"></i><i
+                                    class="" style="color: #4cae4c;font-size: 20px;"></i></a>
+                        <a href="#" class="list-group-item choice-item" data-sinif="B">İnsanlara karma karışık gelen;
+                            ama benim aradığım her şeyi
+                            bulduğum bir masada çalışırım. &nbsp; <i class=""
+                                                                     style="color: #4cae4c;font-size: 20px;"></i><i
+                                    class="" style="color: #4cae4c;font-size: 20px;"></i></a>
+                        <a href="#" class="list-group-item choice-item" data-sinif="C">Önce masamın üzerine gerekli olan
+                            her türlü araç gereci koyarım.
+                            Sık sık kalkarak enerjimi harcamak istemem. &nbsp; <i class=""
+                                                                                  style="color: #4cae4c;font-size: 20px;"></i><i
+                                    class="" style="color: #4cae4c;font-size: 20px;"></i></a>
+                        <a href="#" class="list-group-item choice-item" data-sinif="D">İyi bir iş çıkarmam için masam
+                            son derece derli-toplu ve düzenli
+                            olmalıdır. &nbsp; <i class="" style="color: #4cae4c;font-size: 20px;"></i><i class=""
+                                                                                                         style="color: #4cae4c;font-size: 20px;"></i></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div id="soru15" class="panel panel-info">
+                <div class="panel-heading">
+                    <h3>
+                        15- Ertesi gün çözülmesi gereken bir problem varsa o akşamki ruh haliniz nasıl olur?
+
+                    </h3>
+                </div>
+                <div class="panel-body">
+                    <ul class="list-group">
+                        <a href="#" class="list-group-item choice-item" data-sinif="A">Çok büyük tedirginlik duymam;
+                            çünkü ertesi gün o işi olması
+                            gerektiği gibi yapacağımdan eminimdir. &nbsp; <i class=""
+                                                                             style="color: #4cae4c;font-size: 20px;"></i><i
+                                    class="" style="color: #4cae4c;font-size: 20px;"></i></a>
+                        <a href="#" class="list-group-item choice-item" data-sinif="B">Çok tedirginlik duymam; çünkü
+                            nasıl olsa işler bir şekilde
+                            hallolacaktır. &nbsp; <i class="" style="color: #4cae4c;font-size: 20px;"></i><i class=""
+                                                                                                             style="color: #4cae4c;font-size: 20px;"></i></a>
+                        <a href="#" class="list-group-item choice-item" data-sinif="C">Sorumluluğun üstümde olmasından
+                            dolayı tedirginlik duyarım. &nbsp; <i class=""
+                                                                  style="color: #4cae4c;font-size: 20px;"></i><i
+                                    class="" style="color: #4cae4c;font-size: 20px;"></i></a>
+                        <a href="#" class="list-group-item choice-item" data-sinif="D">Tedirginlik duyarım ve gecenin
+                            büyük bir bölümünde problemin
+                            nasıl çözüleceğiyle ilgili planlar yaparım. &nbsp; <i class=""
+                                                                                  style="color: #4cae4c;font-size: 20px;"></i><i
+                                    class="" style="color: #4cae4c;font-size: 20px;"></i></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+
+<div class="next-button">
+    <button id="next" class="btn btn-info btn-block" disabled>
+        Next
+    </button>
+</div>
+</body>
+</html>

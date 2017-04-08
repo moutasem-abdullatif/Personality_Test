@@ -1,0 +1,59 @@
+.person-circle i {
+    background-color: #5BC0DE;
+    padding: 20px 30px;
+    border-radius: 50%;
+    transition: all .5s ease-in-out;
+    border: 3px solid ;
+}
+
+.person-circle i:hover {
+    background-color: #39a9de;
+}
+
+.user-icon {
+    margin: 60px auto 30px;
+}
+
+.box {
+    position: absolute;
+    width: 50%;
+    left: 150%;
+    top: 50px;
+    margin-left: -25%;
+}
+
+#container {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+}
+
+.next-button {
+    position: absolute;
+    top: 610px;
+    left: 38%;
+    width: 25%;
+}
+
+.next-button button {
+    border-radius: 10px;
+}
+
+
+a.disable{
+    pointer-events: none;
+}
+
+a.choice-item{
+
+}
+
+a.selected-1{
+
+}
+a.selected-1{
+
+}
