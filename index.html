@@ -6,9 +6,6 @@
     <link rel="stylesheet" href="css/bootstrap-superhero.css">
     <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="css/styles.css">
-    <script src="js/jquery-3.1.0.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/scripts.js"></script>
 </head>
 
 <body>
@@ -22,7 +19,9 @@
 </div>
 
 <div id="container">
-    <form method="post" action="">
+    <form id="test-form" method="post" action="personality.php">
+        <input type="hidden" name="karakter-tipi" id="karakter-tipi" value="">
+        <h2 id="timer">0</h2>
         <div class="box" style="left: 50%;">
             <div id="soru1" class="panel panel-info ">
                 <div class="panel-heading">
@@ -32,7 +31,7 @@
                 </div>
                 <div class="panel-body">
                     <ul class="list-group">
-                        <a href="#" class="list-group-item choice-item" data-sinif="A">Güçlü, kararlı, girişken ve
+                        <a href="#" class="list-group-item choice-item selected-1" data-sinif="A">Güçlü, kararlı, girişken ve
                             doğuştan liderim Düşer
                             kalkar, yoluma devam ederim &nbsp; <i class=""
                                                                   style="color: #4cae4c;font-size: 20px;"></i><i
@@ -449,6 +448,10 @@
     <button id="next" class="btn btn-info btn-block" disabled>
         Next
     </button>
+    <button id="submit-btn" class="btn btn-danger btn-block" style="display: none;">Submit</button>
 </div>
 </body>
+<script src="js/jquery-3.1.0.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/scripts.js"></script>
 </html>

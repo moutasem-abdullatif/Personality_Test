@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-3.1.0.js"></script>
+</head>
+<body>
+    <h3 id="timer" style="font-family: Helvetica;">500</h3>
+</body>
+
+<script>
+    function countDown() {
+        setInterval(function () {
+            var now=$("#timer").html();
+            now--;
+            $("#timer").html(now);
+        },1000);
+    }
+
+    countDown();
+</script>
+</html>
